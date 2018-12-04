@@ -1,10 +1,11 @@
 name: gluon
 dependencies:
 - python
+- cudatoolkit=9.0
 - libgfortran
 - jupyter
 - matplotlib
 - pandas
 - pip:
   - requests
-  - mxnet>=0.11.1b20171003
+  - mxnet-cu90
